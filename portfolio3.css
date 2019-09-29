@@ -1,0 +1,119 @@
+head {
+    display: none;
+}
+
+body {
+    background-image: url(marblebackground.png);
+    margin: 0px;
+}
+
+#hr {
+    margin: 20px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    position: relative;
+}
+
+#headdiv {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: auto;
+    padding: 10px;
+}
+
+#Button {
+    position: absolute;
+    padding: 35px;
+    right: 70px;
+    bottom: 0;
+    top: 0;
+}
+
+.button {
+    font-size: 20px;
+    color: #777777;
+    text-decoration: none;
+}
+
+#myabout {
+    position: absolute;
+    height: 500px;
+    width: 960px;
+    top: 100px;
+    left: 200px;
+    right: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 200px;
+    display: block;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.portfoliopics {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin: 15px;
+}
+
+p {
+    padding: 20px;
+    color: #777777;
+    font-size: 20px;
+}
+
+#Copyright {
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0%;
+    height: 60px;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    margin: 0;
+    text-align: center;
+    color: #dddddd;
+}
